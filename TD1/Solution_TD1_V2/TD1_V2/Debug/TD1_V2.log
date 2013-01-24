@@ -1,0 +1,28 @@
+﻿La génération a démarré 2013-01-24 14:14:59.
+     1>Projet "C:\Users\Julien\Documents\Polytechnique\Deuxième session\INF1010 - Programmation orientée objet\TD\TD1\Solution_TD1_V2\TD1_V2\TD1_V2.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\FichiersTP1_V2\Fichiers\Coffret.cpp ..\..\FichiersTP1_V2\Fichiers\Date.cpp ..\..\FichiersTP1_V2\Fichiers\Film.cpp ..\..\FichiersTP1_V2\Fichiers\Videotheque.cpp
+         Videotheque.cpp
+     1>c:\users\julien\documents\polytechnique\deuxième session\inf1010 - programmation orientée objet\td\td1\fichierstp1_v2\fichiers\coffret.h(16): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+     1>c:\users\julien\documents\polytechnique\deuxième session\inf1010 - programmation orientée objet\td\td1\fichierstp1_v2\fichiers\coffret.h(17): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+         Film.cpp
+         Date.cpp
+         Coffret.cpp
+     1>c:\users\julien\documents\polytechnique\deuxième session\inf1010 - programmation orientée objet\td\td1\fichierstp1_v2\fichiers\coffret.cpp(14): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+     1>c:\users\julien\documents\polytechnique\deuxième session\inf1010 - programmation orientée objet\td\td1\fichierstp1_v2\fichiers\coffret.cpp(15): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+     1>c:\users\julien\documents\polytechnique\deuxième session\inf1010 - programmation orientée objet\td\td1\fichierstp1_v2\fichiers\coffret.h(16): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+     1>c:\users\julien\documents\polytechnique\deuxième session\inf1010 - programmation orientée objet\td\td1\fichierstp1_v2\fichiers\coffret.h(17): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+     1>c:\users\julien\documents\polytechnique\deuxième session\inf1010 - programmation orientée objet\td\td1\fichierstp1_v2\fichiers\coffret.cpp(16): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+         Génération de code en cours...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Julien\Documents\Polytechnique\Deuxième session\INF1010 - Programmation orientée objet\TD\TD1\Solution_TD1_V2\Debug\TD1_V2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Julien\Documents\Polytechnique\Deuxième session\INF1010 - Programmation orientée objet\TD\TD1\Solution_TD1_V2\Debug\TD1_V2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Julien\Documents\Polytechnique\Deuxième session\INF1010 - Programmation orientée objet\TD\TD1\Solution_TD1_V2\Debug\TD1_V2.lib" /MACHINE:X86 Debug\Coffret.obj
+         Debug\Date.obj
+         Debug\Film.obj
+         Debug\main.obj
+         Debug\Videotheque.obj
+         TD1_V2.vcxproj -> C:\Users\Julien\Documents\Polytechnique\Deuxième session\INF1010 - Programmation orientée objet\TD\TD1\Solution_TD1_V2\Debug\TD1_V2.exe
+     1>Génération du projet "C:\Users\Julien\Documents\Polytechnique\Deuxième session\INF1010 - Programmation orientée objet\TD\TD1\Solution_TD1_V2\TD1_V2\TD1_V2.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:02.49
