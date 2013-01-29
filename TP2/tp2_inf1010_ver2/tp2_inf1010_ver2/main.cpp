@@ -1,7 +1,7 @@
 /**********************************************************************
 /* Fichier: Main.cpp
-/* Date: 
-/* Auteur: 
+/* Date:  28 Janvier 2013
+/* Auteur: Julien Aymong, Benjamin Brodeur Mathieu
 /* Description: Fichier principal du TP2
 ************************************************************************/
 
@@ -14,8 +14,6 @@ int main()
 {
 	Triangle unTriangle, unAutreTriangle(7);
 	cout << unTriangle.getTaille() << "  " << unAutreTriangle.getTaille() << endl;
-	
-
 
 	/*************************************************************************
 	*  Tester les opérateurs << et >> et constructeurs
