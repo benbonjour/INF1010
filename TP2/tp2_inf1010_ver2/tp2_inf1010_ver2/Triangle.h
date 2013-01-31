@@ -27,10 +27,10 @@ public:
     int getTaille();
 	
 	// Calcul du poid
-	double poids();
+	double poids() const;
 
 	// Surcharge des opérateurs
-	vector<int>& operator[]( int i );
+	//vector<int>& operator[]( int i );
     Triangle& operator=( Triangle& t );
     Triangle operator+( Triangle& t );
     Triangle operator*( Triangle& t );
