@@ -43,6 +43,7 @@ int main()
 	cout << deuxTriangle;
 	cin >> deuxTriangle;
 	cout << deuxTriangle;
+	cout << deuxTriangle;
 
 	// 3 - Afficher le poids du triangle t
 	cout << deuxTriangle.poids();
@@ -53,26 +54,15 @@ int main()
 	*************************************************************************/
 	// 4 - Créer le triangle identité I = [ 1 ; 0 1 ; 0 0 1 ]
 	// Création par >> : Créer un triangle de taille 3 et utiliser l'opérateur >> pour y insérer les valeurs
-	/*
-	Triangle troisTriangle(3);
-	cin >> troisTriangle;
-	cin >> troisTriangle;
-	cin >> troisTriangle;
-	cin >> troisTriangle;
-	cin >> troisTriangle;
-	cin >> troisTriangle;
-	cout << troisTriangle;
-	*/
-	int* tableauDonneeTrois = new int [6];
-	tableauDonneeTrois[0] = 1;
-	tableauDonneeTrois[1] = 0;
-	tableauDonneeTrois[2] = 1;
-	tableauDonneeTrois[3] = 0;
-	tableauDonneeTrois[4] = 0;
-	tableauDonneeTrois[5] = 1;
-
-	Triangle t(3, tableauDonneeTrois);
-
+	
+	Triangle t(3);
+	cin >> t;
+	cin >> t;
+	cin >> t;
+	cin >> t;
+	cin >> t;
+	cin >> t;
+	cout << t;
 
     // 5 - Créer un triangle v = t + I*2;
 	Triangle v;

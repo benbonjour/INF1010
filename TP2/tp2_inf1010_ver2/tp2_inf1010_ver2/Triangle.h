@@ -24,13 +24,13 @@ public:
 	~Triangle();                                    // Destructeur
 
 	// Méthode d'Accès 
-    int getTaille();
+    int getTaille() const;
 	
 	// Calcul du poid
 	double poids() const;
 
 	// Surcharge des opérateurs
-	//vector<int>& operator[]( int i );
+	vector<int>& operator[]( int i );
     Triangle& operator=( Triangle& t );
     Triangle operator+( Triangle& t );
     Triangle operator*( Triangle& t );
@@ -38,15 +38,19 @@ public:
     Triangle& operator+=( Triangle& t );
     Triangle& operator*=( Triangle& t );
 	Triangle& operator*=( int a );
-	bool operator<( Triangle& t );
-    bool operator>( Triangle& t );
-	bool operator==( Triangle& t );
+	bool operator<( Triangle& t ) const;
+    bool operator>( Triangle& t ) const;
+	bool operator==( Triangle& t ) const;
 
 	// Fonction amis (opérateurs d'extraction in d'insertion)
 	friend std::ostream& operator<<( std::ostream& ostr, Triangle& t );
     friend std::istream& operator>>( std::istream& is, Triangle& t );
     	 
 private:
+	// Fonction privee (de calcul du nombre de donnees du triangle pour le tableau)
+	int grandeurTableau( int taille ) const;
+
+	// Attributs
 	vector< vector<int> > triangle_;
 	int taille_;
 	int* donnees_;
